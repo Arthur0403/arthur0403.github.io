@@ -1,0 +1,161 @@
+/*Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+@import url("../css/bootstrap.css");
+@import url("../css/megamenu.css");
+@import url("../css/flexslider.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header {
+	background:rgba(86, 203, 75, 0.66); 
+}
+.head-nav ul li a:hover, .head-nav ul li.active a {
+	color: #fff;
+	background: rgba(86, 203, 75, 0.66);
+}
+.megamenu .dropdown li a {
+	color: #fff;
+	background:#C8C1A2;
+}
+.megamenu .dropdown li a:hover {
+	color:#fff;
+	background:#262626;
+}
+.difference {
+	background: #71B36A;
+}
+.subscribe {
+	background: #C8C1A2;
+}
+.subscribe h3 {
+	color:#262626;
+}
+.subscribe label {
+	background: #262626;
+}
+.subscribe span {
+	color:#262626;
+}
+form input[type="text"] {
+	background:#E7DEB7;
+	color:#262626;
+}
+.button form input[type="submit"] {
+	color: #FFFFFF;
+	background: #6AB3AC;
+}
+a.get {
+	background: #71B36A;
+	color: #fff;
+}
+a.get:hover {
+	background: #E8645A;
+}
+.progressy1 p {
+	background: #D6D1BB;
+}
+.progressy2 p {
+	background: #D6D1BB;
+}
+.progressy3 p {
+	background: #D6D1BB;
+}
+.gallery1 h6 a {
+	color: #71B36A;
+}
+a.contact {
+	background: #C8C1A2;
+	text-decoration: none;
+	color: #fff;
+}
+a.more:hover {
+	background: #C8C1A2;
+	text-decoration: none;
+	color: #fff;
+}
+.flex-control-paging li a.flex-active {
+	background:#C8C1A2;
+}
+.flex-control-paging li a:hover {
+	background:#C8C1A2;
+}
+.button form input[type="submit"] {
+	color: #FFFFFF;
+	background: #71B36A;
+}
+.gallery1 i{
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	background: url(../images/img-sprite.png) no-repeat 0px 0px;
+	position: absolute;
+	top: 39%;
+	right: 1%;
+}
+.gallery1 i.device{
+	background-position:-5px -279px;
+}
+.gallery1 i.video{
+	background-position:-92px -283px;
+}
+.gallery1 i.camera{
+	background-position: -181px -282px;
+}
+.gallery1 i.pencil{
+	background-position: -274px -288px;
+}
+.gallery1:hover i.device{
+	background-position:-6px -96px;
+}
+.gallery1:hover i.video{
+	background-position:  -96px -96px;
+}
+.gallery1:hover i.camera{
+	background-position: -184px -96px;
+}
+.gallery1:hover i.pencil{
+	background-position: -278px -96px;
+}
+i.drop{
+	width: 120px;
+    height: 120px;
+    background:url(../images/img-sprite.png)no-repeat -389px -267px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.progress-head  p.percent{
+	background: url(../images/img-sprite.png) no-repeat -159px -384px;
+}
+.progress-head1  p.percent{
+	background: url(../images/img-sprite.png) no-repeat -159px -384px;
+}
+.progress-head2  p.percent{
+	background: url(../images/img-sprite.png) no-repeat -159px -384px;
+}
+.contact-section form input[type="submit"] {
+	background: #61AA59;
+	color: #fff;
+}
+.contact-section form input[type="submit"]:hover {
+	background: #E8645A;
+	color: #fff;
+}
+.contact-section form textarea {
+	border: 1px solid  #61AA59;
+}
+.contact-section form input[type="text"] {
+	border: 1px solid  #61AA59;
+}
+a.b-home {
+	background:#61AA59;
+	color:#fff;
+}
+a.b-home:hover {
+	background:#FFE52B;
+	color:#262626;
+	text-decoration:none;
+}
